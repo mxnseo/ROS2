@@ -1,0 +1,12 @@
+# ROS 2 Common ignores
+build/
+install/
+log/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# IDE files
+.vscode/
+.idea/
