@@ -1,0 +1,207 @@
+[0.924s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--packages-select', 'dxl3']
+[0.925s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f8202a940>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['dxl3'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f8202a940>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f81f15910>)
+[1.871s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.872s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.872s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.872s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.872s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.873s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.873s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jetson/ros2_ws'
+[1.873s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.873s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.874s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.874s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.874s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.874s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.874s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.875s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.875s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.956s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.956s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.956s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.956s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.957s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.957s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.958s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.958s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.958s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.959s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.959s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.959s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.960s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.960s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.960s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.961s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.961s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.961s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.961s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.961s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.961s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.962s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.962s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.962s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.962s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.962s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.963s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.963s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_ros2) by extensions ['ignore', 'ignore_ament_install']
+[1.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_ros2) by extension 'ignore'
+[1.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_ros2) by extension 'ignore_ament_install'
+[1.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_ros2) by extensions ['colcon_pkg']
+[1.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_ros2) by extension 'colcon_pkg'
+[1.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_ros2) by extensions ['colcon_meta']
+[1.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_ros2) by extension 'colcon_meta'
+[1.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_ros2) by extensions ['ros']
+[1.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_ros2) by extension 'ros'
+[1.974s] DEBUG:colcon.colcon_core.package_identification:Package 'src/camera_ros2' with type 'ros.ament_cmake' and name 'camera_ros2'
+[1.975s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_ros2-1) by extensions ['ignore', 'ignore_ament_install']
+[1.975s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_ros2-1) by extension 'ignore'
+[1.975s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_ros2-1) by extension 'ignore_ament_install'
+[1.976s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_ros2-1) by extensions ['colcon_pkg']
+[1.976s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_ros2-1) by extension 'colcon_pkg'
+[1.976s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_ros2-1) by extensions ['colcon_meta']
+[1.976s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_ros2-1) by extension 'colcon_meta'
+[1.977s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_ros2-1) by extensions ['ros']
+[1.977s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_ros2-1) by extension 'ros'
+[1.980s] DEBUG:colcon.colcon_core.package_identification:Package 'src/camera_ros2-1' with type 'ros.ament_cmake' and name 'camera_ros2-1'
+[1.981s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_ros2-2) by extensions ['ignore', 'ignore_ament_install']
+[1.981s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_ros2-2) by extension 'ignore'
+[1.981s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_ros2-2) by extension 'ignore_ament_install'
+[1.981s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_ros2-2) by extensions ['colcon_pkg']
+[1.982s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_ros2-2) by extension 'colcon_pkg'
+[1.982s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_ros2-2) by extensions ['colcon_meta']
+[1.982s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_ros2-2) by extension 'colcon_meta'
+[1.982s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_ros2-2) by extensions ['ros']
+[1.982s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_ros2-2) by extension 'ros'
+[1.985s] DEBUG:colcon.colcon_core.package_identification:Package 'src/camera_ros2-2' with type 'ros.ament_cmake' and name 'camera_ros2-2'
+[1.986s] Level 1:colcon.colcon_core.package_identification:_identify(src/dxl) by extensions ['ignore', 'ignore_ament_install']
+[1.986s] Level 1:colcon.colcon_core.package_identification:_identify(src/dxl) by extension 'ignore'
+[1.986s] Level 1:colcon.colcon_core.package_identification:_identify(src/dxl) by extension 'ignore_ament_install'
+[1.987s] Level 1:colcon.colcon_core.package_identification:_identify(src/dxl) by extensions ['colcon_pkg']
+[1.987s] Level 1:colcon.colcon_core.package_identification:_identify(src/dxl) by extension 'colcon_pkg'
+[1.987s] Level 1:colcon.colcon_core.package_identification:_identify(src/dxl) by extensions ['colcon_meta']
+[1.987s] Level 1:colcon.colcon_core.package_identification:_identify(src/dxl) by extension 'colcon_meta'
+[1.987s] Level 1:colcon.colcon_core.package_identification:_identify(src/dxl) by extensions ['ros']
+[1.987s] Level 1:colcon.colcon_core.package_identification:_identify(src/dxl) by extension 'ros'
+[1.989s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dxl' with type 'ros.ament_cmake' and name 'dxl'
+[1.990s] Level 1:colcon.colcon_core.package_identification:_identify(src/dxl2) by extensions ['ignore', 'ignore_ament_install']
+[1.990s] Level 1:colcon.colcon_core.package_identification:_identify(src/dxl2) by extension 'ignore'
+[1.990s] Level 1:colcon.colcon_core.package_identification:_identify(src/dxl2) by extension 'ignore_ament_install'
+[1.991s] Level 1:colcon.colcon_core.package_identification:_identify(src/dxl2) by extensions ['colcon_pkg']
+[1.991s] Level 1:colcon.colcon_core.package_identification:_identify(src/dxl2) by extension 'colcon_pkg'
+[1.991s] Level 1:colcon.colcon_core.package_identification:_identify(src/dxl2) by extensions ['colcon_meta']
+[1.991s] Level 1:colcon.colcon_core.package_identification:_identify(src/dxl2) by extension 'colcon_meta'
+[1.991s] Level 1:colcon.colcon_core.package_identification:_identify(src/dxl2) by extensions ['ros']
+[1.991s] Level 1:colcon.colcon_core.package_identification:_identify(src/dxl2) by extension 'ros'
+[1.993s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dxl2' with type 'ros.ament_cmake' and name 'dxl2'
+[1.994s] Level 1:colcon.colcon_core.package_identification:_identify(src/dxl3) by extensions ['ignore', 'ignore_ament_install']
+[1.994s] Level 1:colcon.colcon_core.package_identification:_identify(src/dxl3) by extension 'ignore'
+[1.994s] Level 1:colcon.colcon_core.package_identification:_identify(src/dxl3) by extension 'ignore_ament_install'
+[1.994s] Level 1:colcon.colcon_core.package_identification:_identify(src/dxl3) by extensions ['colcon_pkg']
+[1.995s] Level 1:colcon.colcon_core.package_identification:_identify(src/dxl3) by extension 'colcon_pkg'
+[1.995s] Level 1:colcon.colcon_core.package_identification:_identify(src/dxl3) by extensions ['colcon_meta']
+[1.995s] Level 1:colcon.colcon_core.package_identification:_identify(src/dxl3) by extension 'colcon_meta'
+[1.995s] Level 1:colcon.colcon_core.package_identification:_identify(src/dxl3) by extensions ['ros']
+[1.995s] Level 1:colcon.colcon_core.package_identification:_identify(src/dxl3) by extension 'ros'
+[1.997s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dxl3' with type 'ros.ament_cmake' and name 'dxl3'
+[1.998s] Level 1:colcon.colcon_core.package_identification:_identify(src/dxl_nano) by extensions ['ignore', 'ignore_ament_install']
+[1.998s] Level 1:colcon.colcon_core.package_identification:_identify(src/dxl_nano) by extension 'ignore'
+[1.998s] Level 1:colcon.colcon_core.package_identification:_identify(src/dxl_nano) by extension 'ignore_ament_install'
+[1.999s] Level 1:colcon.colcon_core.package_identification:_identify(src/dxl_nano) by extensions ['colcon_pkg']
+[1.999s] Level 1:colcon.colcon_core.package_identification:_identify(src/dxl_nano) by extension 'colcon_pkg'
+[1.999s] Level 1:colcon.colcon_core.package_identification:_identify(src/dxl_nano) by extensions ['colcon_meta']
+[1.999s] Level 1:colcon.colcon_core.package_identification:_identify(src/dxl_nano) by extension 'colcon_meta'
+[1.999s] Level 1:colcon.colcon_core.package_identification:_identify(src/dxl_nano) by extensions ['ros']
+[1.999s] Level 1:colcon.colcon_core.package_identification:_identify(src/dxl_nano) by extension 'ros'
+[2.002s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dxl_nano' with type 'ros.ament_cmake' and name 'dxl_nano'
+[2.002s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.002s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.003s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.003s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.003s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.083s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'camera_ros2' in 'src/camera_ros2'
+[2.084s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'camera_ros2-1' in 'src/camera_ros2-1'
+[2.084s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'camera_ros2-2' in 'src/camera_ros2-2'
+[2.084s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'dxl' in 'src/dxl'
+[2.084s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'dxl2' in 'src/dxl2'
+[2.084s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'dxl_nano' in 'src/dxl_nano'
+[2.086s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.086s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.095s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/jetson/ros2_ws/install
+[2.102s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 258 installed packages in /opt/ros/foxy
+[2.110s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.404s] Level 5:colcon.colcon_core.verb:set package 'dxl3' build argument 'cmake_args' from command line to 'None'
+[2.405s] Level 5:colcon.colcon_core.verb:set package 'dxl3' build argument 'cmake_target' from command line to 'None'
+[2.405s] Level 5:colcon.colcon_core.verb:set package 'dxl3' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.405s] Level 5:colcon.colcon_core.verb:set package 'dxl3' build argument 'cmake_clean_cache' from command line to 'False'
+[2.405s] Level 5:colcon.colcon_core.verb:set package 'dxl3' build argument 'cmake_clean_first' from command line to 'False'
+[2.405s] Level 5:colcon.colcon_core.verb:set package 'dxl3' build argument 'cmake_force_configure' from command line to 'False'
+[2.405s] Level 5:colcon.colcon_core.verb:set package 'dxl3' build argument 'ament_cmake_args' from command line to 'None'
+[2.406s] Level 5:colcon.colcon_core.verb:set package 'dxl3' build argument 'catkin_cmake_args' from command line to 'None'
+[2.406s] Level 5:colcon.colcon_core.verb:set package 'dxl3' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.406s] DEBUG:colcon.colcon_core.verb:Building package 'dxl3' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/ros2_ws/build/dxl3', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/ros2_ws/install/dxl3', 'merge_install': False, 'path': '/home/jetson/ros2_ws/src/dxl3', 'symlink_install': True, 'test_result_base': None}
+[2.406s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.410s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.410s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jetson/ros2_ws/src/dxl3' with build type 'ament_cmake'
+[2.411s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jetson/ros2_ws/src/dxl3'
+[2.420s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.421s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.421s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.458s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/ros2_ws/build/dxl3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ros2_ws/build/dxl3 -- -j4 -l4
+[8.980s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/ros2_ws/build/dxl3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ros2_ws/build/dxl3 -- -j4 -l4
+[9.098s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/ros2_ws/build/dxl3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jetson/ros2_ws/build/dxl3
+[9.177s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dxl3)
+[9.179s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/ros2_ws/build/dxl3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jetson/ros2_ws/build/dxl3
+[9.187s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/dxl3' for CMake module files
+[9.190s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/dxl3' for CMake config files
+[9.191s] Level 1:colcon.colcon_core.shell:create_environment_hook('dxl3', 'cmake_prefix_path')
+[9.192s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/dxl3/share/dxl3/hook/cmake_prefix_path.ps1'
+[9.194s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros2_ws/install/dxl3/share/dxl3/hook/cmake_prefix_path.dsv'
+[9.196s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/dxl3/share/dxl3/hook/cmake_prefix_path.sh'
+[9.199s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/dxl3/lib'
+[9.200s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/dxl3/bin'
+[9.201s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/dxl3/lib/pkgconfig/dxl3.pc'
+[9.202s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/dxl3/lib/python3.8/site-packages'
+[9.203s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/dxl3/bin'
+[9.206s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/dxl3/share/dxl3/package.ps1'
+[9.209s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetson/ros2_ws/install/dxl3/share/dxl3/package.dsv'
+[9.211s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/dxl3/share/dxl3/package.sh'
+[9.214s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/dxl3/share/dxl3/package.bash'
+[9.217s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/dxl3/share/dxl3/package.zsh'
+[9.219s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetson/ros2_ws/install/dxl3/share/colcon-core/packages/dxl3)
+[9.299s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dxl3)
+[9.300s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/dxl3' for CMake module files
+[9.303s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/dxl3' for CMake config files
+[9.304s] Level 1:colcon.colcon_core.shell:create_environment_hook('dxl3', 'cmake_prefix_path')
+[9.305s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/dxl3/share/dxl3/hook/cmake_prefix_path.ps1'
+[9.307s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros2_ws/install/dxl3/share/dxl3/hook/cmake_prefix_path.dsv'
+[9.308s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/dxl3/share/dxl3/hook/cmake_prefix_path.sh'
+[9.310s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/dxl3/lib'
+[9.310s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/dxl3/bin'
+[9.311s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/dxl3/lib/pkgconfig/dxl3.pc'
+[9.312s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/dxl3/lib/python3.8/site-packages'
+[9.312s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/dxl3/bin'
+[9.314s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/dxl3/share/dxl3/package.ps1'
+[9.316s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetson/ros2_ws/install/dxl3/share/dxl3/package.dsv'
+[9.317s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/dxl3/share/dxl3/package.sh'
+[9.319s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/dxl3/share/dxl3/package.bash'
+[9.320s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/dxl3/share/dxl3/package.zsh'
+[9.322s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetson/ros2_ws/install/dxl3/share/colcon-core/packages/dxl3)
+[9.323s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[9.324s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[9.324s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[9.325s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[9.345s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[9.346s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[9.346s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[9.382s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[9.383s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetson/ros2_ws/install/local_setup.ps1'
+[9.387s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jetson/ros2_ws/install/_local_setup_util_ps1.py'
+[9.393s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetson/ros2_ws/install/setup.ps1'
+[9.398s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetson/ros2_ws/install/local_setup.sh'
+[9.400s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jetson/ros2_ws/install/_local_setup_util_sh.py'
+[9.402s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetson/ros2_ws/install/setup.sh'
+[9.407s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetson/ros2_ws/install/local_setup.bash'
+[9.409s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetson/ros2_ws/install/setup.bash'
+[9.413s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetson/ros2_ws/install/local_setup.zsh'
+[9.415s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetson/ros2_ws/install/setup.zsh'

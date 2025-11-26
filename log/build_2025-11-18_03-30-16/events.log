@@ -1,0 +1,218 @@
+[0.000000] (-) TimerEvent: {}
+[0.002080] (camera_ros2) JobQueued: {'identifier': 'camera_ros2', 'dependencies': OrderedDict()}
+[0.002666] (camera_ros2) JobStarted: {'identifier': 'camera_ros2'}
+[0.041236] (camera_ros2) JobProgress: {'identifier': 'camera_ros2', 'progress': 'cmake'}
+[0.044613] (camera_ros2) JobProgress: {'identifier': 'camera_ros2', 'progress': 'build'}
+[0.047409] (camera_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jetson/ros2_ws/build/camera_ros2', '--', '-j4', '-l4'], 'cwd': '/home/jetson/ros2_ws/build/camera_ros2', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jetson'), ('SSH_CLIENT', '192.168.0.1 59554 22'), ('LC_TIME', 'nl_NL.UTF-8'), ('ROS_NAMESPACE', 'jetson12'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jetson'), ('OLDPWD', '/home/jetson'), ('SSH_TTY', '/dev/pts/0'), ('JETSON_L4T', '32.6.1'), ('ROS_PYTHON_VERSION', '3'), ('JETSON_MODEL', 'NVIDIA Jetson Nano Developer Kit'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_colcon_cd_root', '/home/jetson/ros2_ws'), ('COLCON_PREFIX_PATH', '/home/jetson/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jetson'), ('JETSON_MODULE', 'NVIDIA Jetson Nano (4 GB ram)'), ('JETSON_SERIAL_NUMBER', '1423219108129'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('JETSON_CODENAME', 'Porg'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '10'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jetson/.local/bin:/opt/ros/foxy/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra210'), ('ROS_DOMAIN_ID', '12'), ('AMENT_PREFIX_PATH', '/home/jetson/ros2_ws/install/camera_ros2:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('JETSON_BOARDIDS', 'p3448'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('JETSON_CUDA_ARCH_BIN', '5.3'), ('PWD', '/home/jetson/ros2_ws/build/camera_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.1 59554 192.168.0.142 22'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('JETSON_JETPACK', '4.6'), ('CMAKE_PREFIX_PATH', '/home/jetson/ros2_ws/install/camera_ros2:/opt/ros/foxy'), ('JETSON_P_NUMBER', 'p3448-0000')]), 'shell': False}
+[0.099284] (-) TimerEvent: {}
+[0.200117] (-) TimerEvent: {}
+[0.227542] (camera_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target pub\x1b[0m\n'}
+[0.300308] (-) TimerEvent: {}
+[0.324641] (camera_ros2) StdoutLine: {'line': b'[ 50%] Built target sub\n'}
+[0.362401] (camera_ros2) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/pub.dir/src/pub.cpp.o\x1b[0m\n'}
+[0.400524] (-) TimerEvent: {}
+[0.501506] (-) TimerEvent: {}
+[0.602419] (-) TimerEvent: {}
+[0.703186] (-) TimerEvent: {}
+[0.803919] (-) TimerEvent: {}
+[0.904769] (-) TimerEvent: {}
+[1.005490] (-) TimerEvent: {}
+[1.106473] (-) TimerEvent: {}
+[1.207232] (-) TimerEvent: {}
+[1.307882] (-) TimerEvent: {}
+[1.408616] (-) TimerEvent: {}
+[1.509306] (-) TimerEvent: {}
+[1.610003] (-) TimerEvent: {}
+[1.710762] (-) TimerEvent: {}
+[1.811490] (-) TimerEvent: {}
+[1.912258] (-) TimerEvent: {}
+[2.013031] (-) TimerEvent: {}
+[2.113746] (-) TimerEvent: {}
+[2.214466] (-) TimerEvent: {}
+[2.315192] (-) TimerEvent: {}
+[2.415914] (-) TimerEvent: {}
+[2.516709] (-) TimerEvent: {}
+[2.617440] (-) TimerEvent: {}
+[2.718249] (-) TimerEvent: {}
+[2.818984] (-) TimerEvent: {}
+[2.919775] (-) TimerEvent: {}
+[3.020599] (-) TimerEvent: {}
+[3.121329] (-) TimerEvent: {}
+[3.222052] (-) TimerEvent: {}
+[3.322858] (-) TimerEvent: {}
+[3.423635] (-) TimerEvent: {}
+[3.524636] (-) TimerEvent: {}
+[3.625677] (-) TimerEvent: {}
+[3.726697] (-) TimerEvent: {}
+[3.827409] (-) TimerEvent: {}
+[3.928225] (-) TimerEvent: {}
+[4.028959] (-) TimerEvent: {}
+[4.129704] (-) TimerEvent: {}
+[4.230507] (-) TimerEvent: {}
+[4.331275] (-) TimerEvent: {}
+[4.432011] (-) TimerEvent: {}
+[4.532827] (-) TimerEvent: {}
+[4.633575] (-) TimerEvent: {}
+[4.734400] (-) TimerEvent: {}
+[4.835216] (-) TimerEvent: {}
+[4.935943] (-) TimerEvent: {}
+[5.036692] (-) TimerEvent: {}
+[5.137348] (-) TimerEvent: {}
+[5.238080] (-) TimerEvent: {}
+[5.338735] (-) TimerEvent: {}
+[5.439712] (-) TimerEvent: {}
+[5.540475] (-) TimerEvent: {}
+[5.641200] (-) TimerEvent: {}
+[5.741917] (-) TimerEvent: {}
+[5.842691] (-) TimerEvent: {}
+[5.943511] (-) TimerEvent: {}
+[6.044322] (-) TimerEvent: {}
+[6.145041] (-) TimerEvent: {}
+[6.245840] (-) TimerEvent: {}
+[6.346572] (-) TimerEvent: {}
+[6.447288] (-) TimerEvent: {}
+[6.548015] (-) TimerEvent: {}
+[6.648818] (-) TimerEvent: {}
+[6.749697] (-) TimerEvent: {}
+[6.850411] (-) TimerEvent: {}
+[6.951124] (-) TimerEvent: {}
+[7.051843] (-) TimerEvent: {}
+[7.152589] (-) TimerEvent: {}
+[7.253313] (-) TimerEvent: {}
+[7.354026] (-) TimerEvent: {}
+[7.454744] (-) TimerEvent: {}
+[7.555472] (-) TimerEvent: {}
+[7.656276] (-) TimerEvent: {}
+[7.757043] (-) TimerEvent: {}
+[7.857761] (-) TimerEvent: {}
+[7.958518] (-) TimerEvent: {}
+[8.059251] (-) TimerEvent: {}
+[8.160082] (-) TimerEvent: {}
+[8.260933] (-) TimerEvent: {}
+[8.361748] (-) TimerEvent: {}
+[8.462478] (-) TimerEvent: {}
+[8.563485] (-) TimerEvent: {}
+[8.664297] (-) TimerEvent: {}
+[8.765049] (-) TimerEvent: {}
+[8.866017] (-) TimerEvent: {}
+[8.966747] (-) TimerEvent: {}
+[9.067488] (-) TimerEvent: {}
+[9.168293] (-) TimerEvent: {}
+[9.269087] (-) TimerEvent: {}
+[9.369814] (-) TimerEvent: {}
+[9.470564] (-) TimerEvent: {}
+[9.571307] (-) TimerEvent: {}
+[9.672059] (-) TimerEvent: {}
+[9.772843] (-) TimerEvent: {}
+[9.873571] (-) TimerEvent: {}
+[9.974294] (-) TimerEvent: {}
+[10.075012] (-) TimerEvent: {}
+[10.175736] (-) TimerEvent: {}
+[10.276582] (-) TimerEvent: {}
+[10.377233] (-) TimerEvent: {}
+[10.477957] (-) TimerEvent: {}
+[10.578705] (-) TimerEvent: {}
+[10.679473] (-) TimerEvent: {}
+[10.780312] (-) TimerEvent: {}
+[10.881092] (-) TimerEvent: {}
+[10.981912] (-) TimerEvent: {}
+[11.082637] (-) TimerEvent: {}
+[11.183446] (-) TimerEvent: {}
+[11.284251] (-) TimerEvent: {}
+[11.384999] (-) TimerEvent: {}
+[11.485801] (-) TimerEvent: {}
+[11.586590] (-) TimerEvent: {}
+[11.687305] (-) TimerEvent: {}
+[11.788023] (-) TimerEvent: {}
+[11.888722] (-) TimerEvent: {}
+[11.989439] (-) TimerEvent: {}
+[12.090439] (-) TimerEvent: {}
+[12.191165] (-) TimerEvent: {}
+[12.291995] (-) TimerEvent: {}
+[12.392793] (-) TimerEvent: {}
+[12.493503] (-) TimerEvent: {}
+[12.594236] (-) TimerEvent: {}
+[12.695035] (-) TimerEvent: {}
+[12.795826] (-) TimerEvent: {}
+[12.896615] (-) TimerEvent: {}
+[12.997322] (-) TimerEvent: {}
+[13.098319] (-) TimerEvent: {}
+[13.199030] (-) TimerEvent: {}
+[13.299727] (-) TimerEvent: {}
+[13.400504] (-) TimerEvent: {}
+[13.501292] (-) TimerEvent: {}
+[13.602042] (-) TimerEvent: {}
+[13.702829] (-) TimerEvent: {}
+[13.803528] (-) TimerEvent: {}
+[13.904298] (-) TimerEvent: {}
+[14.005004] (-) TimerEvent: {}
+[14.105989] (-) TimerEvent: {}
+[14.206773] (-) TimerEvent: {}
+[14.307486] (-) TimerEvent: {}
+[14.408192] (-) TimerEvent: {}
+[14.508863] (-) TimerEvent: {}
+[14.609550] (-) TimerEvent: {}
+[14.710252] (-) TimerEvent: {}
+[14.810951] (-) TimerEvent: {}
+[14.911670] (-) TimerEvent: {}
+[15.012374] (-) TimerEvent: {}
+[15.013238] (camera_ros2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable pub\x1b[0m\n'}
+[15.112546] (-) TimerEvent: {}
+[15.213275] (-) TimerEvent: {}
+[15.314059] (-) TimerEvent: {}
+[15.414889] (-) TimerEvent: {}
+[15.515588] (-) TimerEvent: {}
+[15.616297] (-) TimerEvent: {}
+[15.717057] (-) TimerEvent: {}
+[15.817744] (-) TimerEvent: {}
+[15.918476] (-) TimerEvent: {}
+[16.019294] (-) TimerEvent: {}
+[16.120036] (-) TimerEvent: {}
+[16.220778] (-) TimerEvent: {}
+[16.321721] (-) TimerEvent: {}
+[16.422484] (-) TimerEvent: {}
+[16.523158] (-) TimerEvent: {}
+[16.623841] (-) TimerEvent: {}
+[16.724526] (-) TimerEvent: {}
+[16.825198] (-) TimerEvent: {}
+[16.925906] (-) TimerEvent: {}
+[17.026622] (-) TimerEvent: {}
+[17.127407] (-) TimerEvent: {}
+[17.228125] (-) TimerEvent: {}
+[17.328863] (-) TimerEvent: {}
+[17.429813] (-) TimerEvent: {}
+[17.530622] (-) TimerEvent: {}
+[17.631401] (-) TimerEvent: {}
+[17.732226] (-) TimerEvent: {}
+[17.832898] (-) TimerEvent: {}
+[17.877810] (camera_ros2) StderrLine: {'line': b'/usr/bin/ld: warning: libopencv_core.so.4.2, needed by /opt/ros/foxy/lib/libcv_bridge.so, may conflict with libopencv_core.so.408\n'}
+[17.912549] (camera_ros2) StdoutLine: {'line': b'[100%] Built target pub\n'}
+[17.933065] (-) TimerEvent: {}
+[17.948471] (camera_ros2) CommandEnded: {'returncode': 0}
+[18.032101] (camera_ros2) JobProgress: {'identifier': 'camera_ros2', 'progress': 'install'}
+[18.033238] (-) TimerEvent: {}
+[18.067602] (camera_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jetson/ros2_ws/build/camera_ros2'], 'cwd': '/home/jetson/ros2_ws/build/camera_ros2', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jetson'), ('SSH_CLIENT', '192.168.0.1 59554 22'), ('LC_TIME', 'nl_NL.UTF-8'), ('ROS_NAMESPACE', 'jetson12'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jetson'), ('OLDPWD', '/home/jetson'), ('SSH_TTY', '/dev/pts/0'), ('JETSON_L4T', '32.6.1'), ('ROS_PYTHON_VERSION', '3'), ('JETSON_MODEL', 'NVIDIA Jetson Nano Developer Kit'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_colcon_cd_root', '/home/jetson/ros2_ws'), ('COLCON_PREFIX_PATH', '/home/jetson/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jetson'), ('JETSON_MODULE', 'NVIDIA Jetson Nano (4 GB ram)'), ('JETSON_SERIAL_NUMBER', '1423219108129'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('JETSON_CODENAME', 'Porg'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '10'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jetson/.local/bin:/opt/ros/foxy/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra210'), ('ROS_DOMAIN_ID', '12'), ('AMENT_PREFIX_PATH', '/home/jetson/ros2_ws/install/camera_ros2:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('JETSON_BOARDIDS', 'p3448'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('JETSON_CUDA_ARCH_BIN', '5.3'), ('PWD', '/home/jetson/ros2_ws/build/camera_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.1 59554 192.168.0.142 22'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('JETSON_JETPACK', '4.6'), ('CMAKE_PREFIX_PATH', '/home/jetson/ros2_ws/install/camera_ros2:/opt/ros/foxy'), ('JETSON_P_NUMBER', 'p3448-0000')]), 'shell': False}
+[18.097727] (camera_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[18.099065] (camera_ros2) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[18.101390] (camera_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/camera_ros2/lib/camera_ros2/pub\n'}
+[18.102315] (camera_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/camera_ros2/lib/camera_ros2/sub\n'}
+[18.103480] (camera_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/camera_ros2/share/ament_index/resource_index/package_run_dependencies/camera_ros2\n'}
+[18.105270] (camera_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/camera_ros2/share/ament_index/resource_index/parent_prefix_path/camera_ros2\n'}
+[18.106547] (camera_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/camera_ros2/share/camera_ros2/environment/ament_prefix_path.sh\n'}
+[18.107800] (camera_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/camera_ros2/share/camera_ros2/environment/ament_prefix_path.dsv\n'}
+[18.109128] (camera_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/camera_ros2/share/camera_ros2/environment/path.sh\n'}
+[18.110376] (camera_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/camera_ros2/share/camera_ros2/environment/path.dsv\n'}
+[18.111603] (camera_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/camera_ros2/share/camera_ros2/local_setup.bash\n'}
+[18.112988] (camera_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/camera_ros2/share/camera_ros2/local_setup.sh\n'}
+[18.114209] (camera_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/camera_ros2/share/camera_ros2/local_setup.zsh\n'}
+[18.115449] (camera_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/camera_ros2/share/camera_ros2/local_setup.dsv\n'}
+[18.116235] (camera_ros2) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/camera_ros2/share/camera_ros2/package.dsv\n'}
+[18.133393] (-) TimerEvent: {}
+[18.147299] (camera_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/camera_ros2/share/ament_index/resource_index/packages/camera_ros2\n'}
+[18.149169] (camera_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/camera_ros2/share/camera_ros2/cmake/camera_ros2Config.cmake\n'}
+[18.150265] (camera_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/camera_ros2/share/camera_ros2/cmake/camera_ros2Config-version.cmake\n'}
+[18.151271] (camera_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/camera_ros2/share/camera_ros2/package.xml\n'}
+[18.156245] (camera_ros2) CommandEnded: {'returncode': 0}
+[18.233638] (-) TimerEvent: {}
+[18.324523] (camera_ros2) JobEnded: {'identifier': 'camera_ros2', 'rc': 0}
+[18.327302] (-) EventReactorShutdown: {}

@@ -1,0 +1,22 @@
+[35m[1mScanning dependencies of target dxl[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/dxl.dir/src/main.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable dxl[0m
+[100%] Built target dxl
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/jetson/ros2_ws/install/dxl/lib/dxl/dxl
+-- Up-to-date symlink: /home/jetson/ros2_ws/install/dxl/share/ament_index/resource_index/package_run_dependencies/dxl
+-- Up-to-date symlink: /home/jetson/ros2_ws/install/dxl/share/ament_index/resource_index/parent_prefix_path/dxl
+-- Up-to-date symlink: /home/jetson/ros2_ws/install/dxl/share/dxl/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/jetson/ros2_ws/install/dxl/share/dxl/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/jetson/ros2_ws/install/dxl/share/dxl/environment/path.sh
+-- Up-to-date symlink: /home/jetson/ros2_ws/install/dxl/share/dxl/environment/path.dsv
+-- Up-to-date symlink: /home/jetson/ros2_ws/install/dxl/share/dxl/local_setup.bash
+-- Up-to-date symlink: /home/jetson/ros2_ws/install/dxl/share/dxl/local_setup.sh
+-- Up-to-date symlink: /home/jetson/ros2_ws/install/dxl/share/dxl/local_setup.zsh
+-- Up-to-date symlink: /home/jetson/ros2_ws/install/dxl/share/dxl/local_setup.dsv
+-- Symlinking: /home/jetson/ros2_ws/install/dxl/share/dxl/package.dsv
+-- Up-to-date symlink: /home/jetson/ros2_ws/install/dxl/share/ament_index/resource_index/packages/dxl
+-- Up-to-date symlink: /home/jetson/ros2_ws/install/dxl/share/dxl/cmake/dxlConfig.cmake
+-- Up-to-date symlink: /home/jetson/ros2_ws/install/dxl/share/dxl/cmake/dxlConfig-version.cmake
+-- Up-to-date symlink: /home/jetson/ros2_ws/install/dxl/share/dxl/package.xml

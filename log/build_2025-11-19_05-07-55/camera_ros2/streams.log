@@ -1,0 +1,32 @@
+[0.050s] Invoking command in '/home/jetson/ros2_ws/build/camera_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ros2_ws/build/camera_ros2 -- -j4 -l4
+[0.296s] [35m[1mScanning dependencies of target pub[0m
+[0.306s] [35m[1mScanning dependencies of target sub[0m
+[0.487s] [ 25%] [32mBuilding CXX object CMakeFiles/pub.dir/src/pub.cpp.o[0m
+[0.574s] [ 50%] [32mBuilding CXX object CMakeFiles/sub.dir/src/sub.cpp.o[0m
+[18.656s] [ 75%] [32m[1mLinking CXX executable pub[0m
+[21.860s] /usr/bin/ld: warning: libopencv_core.so.4.2, needed by /opt/ros/foxy/lib/libcv_bridge.so, may conflict with libopencv_core.so.408
+[21.897s] [ 75%] Built target pub
+[26.220s] [100%] [32m[1mLinking CXX executable sub[0m
+[27.916s] [100%] Built target sub
+[27.955s] Invoked command in '/home/jetson/ros2_ws/build/camera_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ros2_ws/build/camera_ros2 -- -j4 -l4
+[28.082s] Invoking command in '/home/jetson/ros2_ws/build/camera_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jetson/ros2_ws/build/camera_ros2
+[28.130s] -- Install configuration: ""
+[28.133s] -- Execute custom install script
+[28.135s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/camera_ros2/lib/camera_ros2/pub
+[28.137s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/camera_ros2/lib/camera_ros2/sub
+[28.138s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/camera_ros2/share/ament_index/resource_index/package_run_dependencies/camera_ros2
+[28.143s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/camera_ros2/share/ament_index/resource_index/parent_prefix_path/camera_ros2
+[28.147s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/camera_ros2/share/camera_ros2/environment/ament_prefix_path.sh
+[28.149s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/camera_ros2/share/camera_ros2/environment/ament_prefix_path.dsv
+[28.151s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/camera_ros2/share/camera_ros2/environment/path.sh
+[28.164s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/camera_ros2/share/camera_ros2/environment/path.dsv
+[28.165s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/camera_ros2/share/camera_ros2/local_setup.bash
+[28.167s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/camera_ros2/share/camera_ros2/local_setup.sh
+[28.168s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/camera_ros2/share/camera_ros2/local_setup.zsh
+[28.169s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/camera_ros2/share/camera_ros2/local_setup.dsv
+[28.170s] -- Symlinking: /home/jetson/ros2_ws/install/camera_ros2/share/camera_ros2/package.dsv
+[28.244s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/camera_ros2/share/ament_index/resource_index/packages/camera_ros2
+[28.248s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/camera_ros2/share/camera_ros2/cmake/camera_ros2Config.cmake
+[28.251s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/camera_ros2/share/camera_ros2/cmake/camera_ros2Config-version.cmake
+[28.254s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/camera_ros2/share/camera_ros2/package.xml
+[28.265s] Invoked command in '/home/jetson/ros2_ws/build/camera_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jetson/ros2_ws/build/camera_ros2

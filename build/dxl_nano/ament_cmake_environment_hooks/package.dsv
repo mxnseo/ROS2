@@ -1,0 +1,4 @@
+source;share/dxl_nano/local_setup.bash
+source;share/dxl_nano/local_setup.dsv
+source;share/dxl_nano/local_setup.sh
+source;share/dxl_nano/local_setup.zsh

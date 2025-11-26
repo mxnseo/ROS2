@@ -1,0 +1,26 @@
+[0.044s] Invoking command in '/home/jetson/ros2_ws/build/dxl3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ros2_ws/build/dxl3 -- -j4 -l4
+[0.195s] [35m[1mScanning dependencies of target dxl3[0m
+[0.304s] [ 33%] [32mBuilding CXX object CMakeFiles/dxl3.dir/src/main.cpp.o[0m
+[6.104s] [ 66%] [32m[1mLinking CXX executable dxl3[0m
+[6.530s] [100%] Built target dxl3
+[6.566s] Invoked command in '/home/jetson/ros2_ws/build/dxl3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ros2_ws/build/dxl3 -- -j4 -l4
+[6.684s] Invoking command in '/home/jetson/ros2_ws/build/dxl3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jetson/ros2_ws/build/dxl3
+[6.711s] -- Install configuration: ""
+[6.713s] -- Execute custom install script
+[6.714s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/dxl3/lib/dxl3/dxl3
+[6.715s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/dxl3/share/ament_index/resource_index/package_run_dependencies/dxl3
+[6.716s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/dxl3/share/ament_index/resource_index/parent_prefix_path/dxl3
+[6.717s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/dxl3/share/dxl3/environment/ament_prefix_path.sh
+[6.718s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/dxl3/share/dxl3/environment/ament_prefix_path.dsv
+[6.719s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/dxl3/share/dxl3/environment/path.sh
+[6.720s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/dxl3/share/dxl3/environment/path.dsv
+[6.721s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/dxl3/share/dxl3/local_setup.bash
+[6.722s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/dxl3/share/dxl3/local_setup.sh
+[6.723s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/dxl3/share/dxl3/local_setup.zsh
+[6.724s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/dxl3/share/dxl3/local_setup.dsv
+[6.725s] -- Symlinking: /home/jetson/ros2_ws/install/dxl3/share/dxl3/package.dsv
+[6.756s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/dxl3/share/ament_index/resource_index/packages/dxl3
+[6.757s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/dxl3/share/dxl3/cmake/dxl3Config.cmake
+[6.758s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/dxl3/share/dxl3/cmake/dxl3Config-version.cmake
+[6.759s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/dxl3/share/dxl3/package.xml
+[6.765s] Invoked command in '/home/jetson/ros2_ws/build/dxl3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jetson/ros2_ws/build/dxl3

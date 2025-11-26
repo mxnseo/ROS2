@@ -1,0 +1,150 @@
+[0.000000] (-) TimerEvent: {}
+[0.000797] (-) JobUnselected: {'identifier': 'camera_ros2'}
+[0.000964] (-) JobUnselected: {'identifier': 'camera_ros2-1'}
+[0.001167] (-) JobUnselected: {'identifier': 'camera_ros2-2'}
+[0.001734] (-) JobUnselected: {'identifier': 'dxl'}
+[0.001881] (dxl2) JobQueued: {'identifier': 'dxl2', 'dependencies': OrderedDict()}
+[0.002016] (dxl2) JobStarted: {'identifier': 'dxl2'}
+[0.038592] (dxl2) JobProgress: {'identifier': 'dxl2', 'progress': 'cmake'}
+[0.043747] (dxl2) JobProgress: {'identifier': 'dxl2', 'progress': 'build'}
+[0.044251] (dxl2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jetson/ros2_ws/build/dxl2', '--', '-j4', '-l4'], 'cwd': '/home/jetson/ros2_ws/build/dxl2', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jetson'), ('SSH_CLIENT', '192.168.0.4 64019 22'), ('LC_TIME', 'nl_NL.UTF-8'), ('ROS_NAMESPACE', 'jetson12'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jetson'), ('OLDPWD', '/home/jetson'), ('SSH_TTY', '/dev/pts/0'), ('JETSON_L4T', '32.6.1'), ('ROS_PYTHON_VERSION', '3'), ('JETSON_MODEL', 'NVIDIA Jetson Nano Developer Kit'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_colcon_cd_root', '/home/jetson/ros2_ws'), ('COLCON_PREFIX_PATH', '/home/jetson/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jetson'), ('JETSON_MODULE', 'NVIDIA Jetson Nano (4 GB ram)'), ('JETSON_SERIAL_NUMBER', '1423219108129'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('JETSON_CODENAME', 'Porg'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jetson/.local/bin:/opt/ros/foxy/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra210'), ('ROS_DOMAIN_ID', '12'), ('AMENT_PREFIX_PATH', '/home/jetson/ros2_ws/install/dxl2:/home/jetson/ros2_ws/install/dxl:/home/jetson/ros2_ws/install/camera_ros2-2:/home/jetson/ros2_ws/install/camera_ros2-1:/home/jetson/ros2_ws/install/camera_ros2:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('JETSON_BOARDIDS', 'p3448'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('JETSON_CUDA_ARCH_BIN', '5.3'), ('PWD', '/home/jetson/ros2_ws/build/dxl2'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.4 64019 192.168.0.142 22'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('JETSON_JETPACK', '4.6'), ('CMAKE_PREFIX_PATH', '/home/jetson/ros2_ws/install/dxl2:/home/jetson/ros2_ws/install/dxl:/home/jetson/ros2_ws/install/camera_ros2-2:/home/jetson/ros2_ws/install/camera_ros2-1:/home/jetson/ros2_ws/install/camera_ros2:/opt/ros/foxy'), ('JETSON_P_NUMBER', 'p3448-0000')]), 'shell': False}
+[0.098039] (-) TimerEvent: {}
+[0.144300] (dxl2) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.198174] (-) TimerEvent: {}
+[0.227188] (dxl2) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.298354] (-) TimerEvent: {}
+[0.399408] (-) TimerEvent: {}
+[0.500081] (-) TimerEvent: {}
+[0.600762] (-) TimerEvent: {}
+[0.701491] (-) TimerEvent: {}
+[0.802461] (-) TimerEvent: {}
+[0.903371] (-) TimerEvent: {}
+[1.004318] (-) TimerEvent: {}
+[1.105293] (-) TimerEvent: {}
+[1.108658] (dxl2) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.134830] (dxl2) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[1.205448] (-) TimerEvent: {}
+[1.279860] (dxl2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.294657] (dxl2) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.305641] (-) TimerEvent: {}
+[1.406314] (-) TimerEvent: {}
+[1.507007] (-) TimerEvent: {}
+[1.607740] (-) TimerEvent: {}
+[1.708566] (-) TimerEvent: {}
+[1.809366] (-) TimerEvent: {}
+[1.818501] (dxl2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.909576] (-) TimerEvent: {}
+[2.010287] (-) TimerEvent: {}
+[2.024819] (dxl2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[2.031333] (dxl2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.110445] (-) TimerEvent: {}
+[2.211361] (-) TimerEvent: {}
+[2.312125] (-) TimerEvent: {}
+[2.413569] (-) TimerEvent: {}
+[2.514433] (-) TimerEvent: {}
+[2.615165] (-) TimerEvent: {}
+[2.715887] (-) TimerEvent: {}
+[2.816651] (-) TimerEvent: {}
+[2.914470] (dxl2) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.916785] (-) TimerEvent: {}
+[2.940613] (dxl2) StdoutLine: {'line': b'-- Generating done\n'}
+[2.946117] (dxl2) StdoutLine: {'line': b'-- Build files have been written to: /home/jetson/ros2_ws/build/dxl2\n'}
+[3.017013] (-) TimerEvent: {}
+[3.026553] (dxl2) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target dxl2\x1b[0m\n'}
+[3.117172] (-) TimerEvent: {}
+[3.175819] (dxl2) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/dxl2.dir/src/dxl.cpp.o\x1b[0m\n'}
+[3.176673] (dxl2) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/dxl2.dir/src/main.cpp.o\x1b[0m\n'}
+[3.217336] (-) TimerEvent: {}
+[3.318044] (-) TimerEvent: {}
+[3.419022] (-) TimerEvent: {}
+[3.520008] (-) TimerEvent: {}
+[3.620756] (-) TimerEvent: {}
+[3.721575] (-) TimerEvent: {}
+[3.822333] (-) TimerEvent: {}
+[3.923153] (-) TimerEvent: {}
+[4.023930] (-) TimerEvent: {}
+[4.124701] (-) TimerEvent: {}
+[4.225485] (-) TimerEvent: {}
+[4.326240] (-) TimerEvent: {}
+[4.426986] (-) TimerEvent: {}
+[4.527690] (-) TimerEvent: {}
+[4.628400] (-) TimerEvent: {}
+[4.729177] (-) TimerEvent: {}
+[4.829894] (-) TimerEvent: {}
+[4.930631] (-) TimerEvent: {}
+[5.031332] (-) TimerEvent: {}
+[5.131981] (-) TimerEvent: {}
+[5.232684] (-) TimerEvent: {}
+[5.333469] (-) TimerEvent: {}
+[5.434172] (-) TimerEvent: {}
+[5.534866] (-) TimerEvent: {}
+[5.635597] (-) TimerEvent: {}
+[5.736312] (-) TimerEvent: {}
+[5.837032] (-) TimerEvent: {}
+[5.937792] (-) TimerEvent: {}
+[6.038556] (-) TimerEvent: {}
+[6.139310] (-) TimerEvent: {}
+[6.240060] (-) TimerEvent: {}
+[6.340870] (-) TimerEvent: {}
+[6.441703] (-) TimerEvent: {}
+[6.542507] (-) TimerEvent: {}
+[6.643314] (-) TimerEvent: {}
+[6.744095] (-) TimerEvent: {}
+[6.844887] (-) TimerEvent: {}
+[6.945713] (-) TimerEvent: {}
+[7.046730] (-) TimerEvent: {}
+[7.147700] (-) TimerEvent: {}
+[7.248755] (-) TimerEvent: {}
+[7.349834] (-) TimerEvent: {}
+[7.450793] (-) TimerEvent: {}
+[7.561201] (-) TimerEvent: {}
+[7.661980] (-) TimerEvent: {}
+[7.762677] (-) TimerEvent: {}
+[7.863510] (-) TimerEvent: {}
+[7.964362] (-) TimerEvent: {}
+[8.065359] (-) TimerEvent: {}
+[8.166102] (-) TimerEvent: {}
+[8.266819] (-) TimerEvent: {}
+[8.367536] (-) TimerEvent: {}
+[8.468250] (-) TimerEvent: {}
+[8.568972] (-) TimerEvent: {}
+[8.669822] (-) TimerEvent: {}
+[8.770570] (-) TimerEvent: {}
+[8.871289] (-) TimerEvent: {}
+[8.972065] (-) TimerEvent: {}
+[9.064341] (dxl2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable dxl2\x1b[0m\n'}
+[9.072276] (-) TimerEvent: {}
+[9.173009] (-) TimerEvent: {}
+[9.273846] (-) TimerEvent: {}
+[9.374570] (-) TimerEvent: {}
+[9.475316] (-) TimerEvent: {}
+[9.568121] (dxl2) StdoutLine: {'line': b'[100%] Built target dxl2\n'}
+[9.575535] (-) TimerEvent: {}
+[9.604553] (dxl2) CommandEnded: {'returncode': 0}
+[9.675753] (-) TimerEvent: {}
+[9.688454] (dxl2) JobProgress: {'identifier': 'dxl2', 'progress': 'install'}
+[9.727733] (dxl2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jetson/ros2_ws/build/dxl2'], 'cwd': '/home/jetson/ros2_ws/build/dxl2', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jetson'), ('SSH_CLIENT', '192.168.0.4 64019 22'), ('LC_TIME', 'nl_NL.UTF-8'), ('ROS_NAMESPACE', 'jetson12'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jetson'), ('OLDPWD', '/home/jetson'), ('SSH_TTY', '/dev/pts/0'), ('JETSON_L4T', '32.6.1'), ('ROS_PYTHON_VERSION', '3'), ('JETSON_MODEL', 'NVIDIA Jetson Nano Developer Kit'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_colcon_cd_root', '/home/jetson/ros2_ws'), ('COLCON_PREFIX_PATH', '/home/jetson/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jetson'), ('JETSON_MODULE', 'NVIDIA Jetson Nano (4 GB ram)'), ('JETSON_SERIAL_NUMBER', '1423219108129'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('JETSON_CODENAME', 'Porg'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jetson/.local/bin:/opt/ros/foxy/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra210'), ('ROS_DOMAIN_ID', '12'), ('AMENT_PREFIX_PATH', '/home/jetson/ros2_ws/install/dxl2:/home/jetson/ros2_ws/install/dxl:/home/jetson/ros2_ws/install/camera_ros2-2:/home/jetson/ros2_ws/install/camera_ros2-1:/home/jetson/ros2_ws/install/camera_ros2:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('JETSON_BOARDIDS', 'p3448'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('JETSON_CUDA_ARCH_BIN', '5.3'), ('PWD', '/home/jetson/ros2_ws/build/dxl2'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.4 64019 192.168.0.142 22'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('JETSON_JETPACK', '4.6'), ('CMAKE_PREFIX_PATH', '/home/jetson/ros2_ws/install/dxl2:/home/jetson/ros2_ws/install/dxl:/home/jetson/ros2_ws/install/camera_ros2-2:/home/jetson/ros2_ws/install/camera_ros2-1:/home/jetson/ros2_ws/install/camera_ros2:/opt/ros/foxy'), ('JETSON_P_NUMBER', 'p3448-0000')]), 'shell': False}
+[9.755985] (dxl2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.757648] (dxl2) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[9.759210] (dxl2) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dxl2/lib/dxl2/dxl2\n'}
+[9.775950] (-) TimerEvent: {}
+[9.789369] (dxl2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/dxl2/share/ament_index/resource_index/package_run_dependencies/dxl2\n'}
+[9.790416] (dxl2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/dxl2/share/ament_index/resource_index/parent_prefix_path/dxl2\n'}
+[9.791466] (dxl2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/dxl2/share/dxl2/environment/ament_prefix_path.sh\n'}
+[9.792379] (dxl2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/dxl2/share/dxl2/environment/ament_prefix_path.dsv\n'}
+[9.793425] (dxl2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/dxl2/share/dxl2/environment/path.sh\n'}
+[9.794348] (dxl2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/dxl2/share/dxl2/environment/path.dsv\n'}
+[9.795242] (dxl2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/dxl2/share/dxl2/local_setup.bash\n'}
+[9.796161] (dxl2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/dxl2/share/dxl2/local_setup.sh\n'}
+[9.797178] (dxl2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/dxl2/share/dxl2/local_setup.zsh\n'}
+[9.798122] (dxl2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/dxl2/share/dxl2/local_setup.dsv\n'}
+[9.798876] (dxl2) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dxl2/share/dxl2/package.dsv\n'}
+[9.828874] (dxl2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/dxl2/share/ament_index/resource_index/packages/dxl2\n'}
+[9.829991] (dxl2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/dxl2/share/dxl2/cmake/dxl2Config.cmake\n'}
+[9.830855] (dxl2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/dxl2/share/dxl2/cmake/dxl2Config-version.cmake\n'}
+[9.831729] (dxl2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/dxl2/share/dxl2/package.xml\n'}
+[9.838508] (dxl2) CommandEnded: {'returncode': 0}
+[9.877789] (-) TimerEvent: {}
+[9.978670] (-) TimerEvent: {}
+[9.985642] (dxl2) JobEnded: {'identifier': 'dxl2', 'rc': 0}
+[9.988320] (-) EventReactorShutdown: {}
