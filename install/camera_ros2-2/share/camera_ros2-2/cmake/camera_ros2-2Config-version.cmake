@@ -1,1 +1,0 @@
-/home/jetson/ros2_ws/build/camera_ros2-2/ament_cmake_core/camera_ros2-2Config-version.cmake

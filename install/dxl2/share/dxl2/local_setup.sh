@@ -1,1 +1,0 @@
-/home/jetson/ros2_ws/build/dxl2/ament_cmake_environment_hooks/local_setup.sh
