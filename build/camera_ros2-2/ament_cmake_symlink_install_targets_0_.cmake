@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/jetson/ros2_ws/build/camera_ros2-2/pub2" "/home/jetson/ros2_ws/build/camera_ros2-2/sub2" "TARGETS" "pub2" "sub2" "DESTINATION" "lib/camera_ros2-2")
