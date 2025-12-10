@@ -1,6 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.000555] (-) JobUnselected: {'identifier': 'camera_ros2'}
-[0.000688] (-) JobUnselected: {'identifier': 'camera_ros2-1'}
-[0.000815] (-) JobUnselected: {'identifier': 'camera_ros2-2'}
-[0.000921] (-) JobUnselected: {'identifier': 'dxl'}
-[0.001152] (-) EventReactorShutdown: {}

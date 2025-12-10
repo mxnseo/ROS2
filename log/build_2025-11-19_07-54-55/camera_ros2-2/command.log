@@ -1,6 +1,0 @@
-Invoking command in '/home/jetson/ros2_ws/build/camera_ros2-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/jetson/ros2_ws/src/camera_ros2-2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jetson/ros2_ws/install/camera_ros2-2
-Invoked command in '/home/jetson/ros2_ws/build/camera_ros2-2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/jetson/ros2_ws/src/camera_ros2-2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jetson/ros2_ws/install/camera_ros2-2
-Invoking command in '/home/jetson/ros2_ws/build/camera_ros2-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ros2_ws/build/camera_ros2-2 -- -j4 -l4
-Invoked command in '/home/jetson/ros2_ws/build/camera_ros2-2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ros2_ws/build/camera_ros2-2 -- -j4 -l4
-Invoking command in '/home/jetson/ros2_ws/build/camera_ros2-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jetson/ros2_ws/build/camera_ros2-2
-Invoked command in '/home/jetson/ros2_ws/build/camera_ros2-2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jetson/ros2_ws/build/camera_ros2-2
